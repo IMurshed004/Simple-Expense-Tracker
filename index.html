@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Simple Expense Tracker</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="sec-1">
+                <h1>Simple Expense Tracker</h1>
+            </div>
+            <div class="sec-2">
+                <div class="field">
+                    <p id="one1">Total Diposit</p>
+                    <p id="two2"></p>
+                </div>
+                <div class="field">
+                    <p id="one1">Total Withdraw</p>
+                    <p id="three3"></p>
+                </div>
+                <div class="field">
+                    <p id="one1">Total Balance</p>
+                    <p id="four4"></p>
+                </div>
+            </div>
+            <div class="amount">
+                <input type='number' class="inputAmount" id="inputAmount" min="0">
+            </div>
+            <div class="buttons">
+                <button id="one" class="btn" onclick="diposit()"><span>Diposit</span></button>
+                <button id="two" class="btn" onclick="withdraw()"><span>Withdraw</span></button>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
